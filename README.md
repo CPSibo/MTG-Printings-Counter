@@ -16,4 +16,6 @@ This will output all cards found with their number of finishes, plus total count
 ```
 This will restrict the card output to only ones with at least `minFinishes` finishes. The totals at the bottom are unaffected by `minFinishes`.
 
+## Acknowledgements
+This tool uses the [Scryfall API](https://scryfall.com/docs/api) to retrieve data.
 
