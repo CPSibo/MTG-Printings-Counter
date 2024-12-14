@@ -6,13 +6,13 @@ You can run this via powershell on windows.
 ## Examples
 ### Basic
 ```ps
-.\getMtgSetPrintings.ps1 -setCode "fnd"
+.\getMtgSetPrintings.ps1 -setCode "fdn"
 ```
 This will output all cards found with their number of finishes, plus total counts below. `setCode` refers to the [three-letter code given to sets on scryfall](https://scryfall.com/sets).
 
 ### Minimum Finishes
 ```ps
-.\getMtgSetPrintings.ps1 -setCode "fnd" -minFinishes 3
+.\getMtgSetPrintings.ps1 -setCode "fdn" -minFinishes 3
 ```
 This will restrict the card output to only ones with at least `minFinishes` finishes. The totals at the bottom are unaffected by `minFinishes`.
 
